@@ -40,3 +40,16 @@ Class code:   Class:                  Number of instances:
 5             cronic dermatitis               52    
 6             pityriasis rubra pilaris        20
 
+SUMMARY:
+
+1.After fitting varied models to the given data, we interestingly found the scoring metrics to be perfect showing 100% accuracy, precision and recall.
+
+2.However, the Decision tree values show NaN.This means this particular model is not the right fit.
+
+3.Among the three models, logistic regression and Svm model using random search and grid search showed better performance compared to default modelling technique.
+
+4.I have also observed that SVM and logistic regression using random and grid search didn't work for multi classification but when converted it into binary the results were positive completely.
+
+5.The Recall Score showed 1.0  which is our desired metric so all of the models have done well interms of performance.
+
+Finally,  models perfomed well except the decision trees.
